@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "63e8b3fb-b53a-488d-a67b-e27f1e880057",
+		"name": "Rest-SpringBoot-Part1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sample GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/employee/soumen/barik",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"soumen",
+						"barik"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
